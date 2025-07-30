@@ -145,7 +145,7 @@ If you use HELIX Automation App in your work, please cite:
 
 ```bibtex
 @software{bhattacharjee2025helixapp,
-  title     = {HELIX Automation App: A Modular Python Application and Control Platform for High-Throughput Laser-Driven Impact Experiments with Feedback Control},
+  title     = {HELIX Automation App: A Modular Python Application and Control Platform for Automated High-Throughput Laser-Driven Impact Experiments},
   author    = {Bhattacharjee, Anuruddha},
   year      = {2025},
   url       = {https://github.com/Anuruddha22/Helix-Automation-App},
