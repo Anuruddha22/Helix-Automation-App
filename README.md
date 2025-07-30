@@ -33,10 +33,10 @@ The HELIX Automation App is a modular, Python-based control platform developed t
 | `helix_app.py`        | PyQt5-based graphical user interface for interactive experiment control |
 | `cnn_model.py`        | Implements CNN-based flyer detection using pre-trained PyTorch models |
 | `delay_generator.py`  | Interface for controlling the delay generator to trigger laser pulses |
-| `motion_stage.py`     | Driver for controlling the motion stage via ACS hardware |
-| `power_meter.py`      | Reads laser pulse energy using a Gentec-EO power meter |
-| `pdv.py`              | Interfaces with the Photonic Doppler Velocimetry (PDV) system for reading and writing velocity data related to micro-flyer impact |
-| `top_camera.py`       | Captures and processes frames from the IDS uEye+ camera for vision-based alignment |
+| `motion_stage.py`     | Wrapper forcontrolling the ACS motion stage |
+| `power_meter.py`      | Wrapper for reading laser pulse energy using a Gentec-EO power meter |
+| `pdv.py`              | Interfaces with the Photonic Doppler Velocimetry (PDV) system for reading and writing raw PDV metadata related to micro-flyer impact |
+| `top_camera.py`       | Captures and processes frames from the IDS uEye+ camera for vision-based flyer detection and alignment |
 | `waveplate_rotator.py`| Controls an optical waveplate to adjust polarization or laser drive energy |
 | `beam_profiler.py`    | Interfaces with the Beamage SDK to extract laser beam profile data via DLL |
 | `support_files/`      | Contains pre-trained CNN models, calibration Excel files, required DLLs, and SDK installers |
@@ -56,7 +56,7 @@ git clone https://github.com/Anuruddha22/Helix-Automation-App.git
 cd Helix-Automation-App
 ```
 
-2. **Set up a Python virtual environment** (recommended):
+2. **Set up a Python virtual environment**:
 ```bash
 python -m venv helix-env
 helix-env\Scripts\activate    # For Windows
@@ -141,7 +141,7 @@ Collaborators from the Ramesh research group and HEMI at Johns Hopkins Universit
 
 ## Citation
 
-If you use HELIX Automation App in your research, please cite:
+If you use HELIX Automation App in your work, please cite:
 
 ```bibtex
 @software{bhattacharjee2025helixapp,
