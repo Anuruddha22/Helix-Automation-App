@@ -52,8 +52,8 @@ The HELIX Automation App is a modular, Python-based control platform developed t
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/Anuruddha22/HELIX-AUTOMATION-APP.git
-cd HELIX-AUTOMATION-APP
+git clone https://github.com/Anuruddha22/Helix-Automation-App.git
+cd Helix-Automation-App
 ```
 
 2. **Set up a Python virtual environment** (recommended):
@@ -126,7 +126,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE) file for details.
 
 ---
 
@@ -138,7 +138,7 @@ Collaborators from the Ramesh research group and HEMI at Johns Hopkins Universit
 
 ## Citation
 
-If you use HELIX Toolbox in your research, please cite:
+If you use HELIX Automation App in your research, please cite:
 
 ```bibtex
 @software{bhattacharjee2025helixapp,
