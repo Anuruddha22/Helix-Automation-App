@@ -95,13 +95,16 @@ python helix_app.py
 ### Experimental Workflow
 
 1. Set experimental parameters (e.g., Flyer ID, Flyer material, Waveplate angles).  
-![Step 1 - Parameter Input Window](Images/helixgui_popup_step1.png)
+
+<img src="Images/helixgui_popup_step1.png" width="500"/>
 
 2. Select target flyer locations using the GUI grid interface.  
-![Step 2 - Grid Selection Window](Images/helixgui_popup_step2.png)
+
+<img src="Images/helixgui_popup_step2.png" width="500"/>
 
 3. Verify the live camera feed to ensure proper field of view and flyer visibility.  
-![Step 3 - Live Camera View](Images/helixgui_popup_step3.png)
+
+<img src="Images/helixgui_popup_step3.png" width="500"/>
 
 4. Start the experiment by clicking the `Start` button in the GUI.  
 5. Camera detects the user-selected micro-flyer using a trained CNN model.   
