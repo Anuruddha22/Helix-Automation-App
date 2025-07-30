@@ -1,0 +1,15 @@
+# Add any python package requirements for the controller here
+numpy
+opencv-python
+pandas
+tifffile
+torch
+torchvision
+efficientnet_pytorch
+ids_peak
+pyvisa
+python-vxi11
+PyQt5
+matplotlib
+openpyxl
+support_files\spiipluspython-4.10.0.0-cp313-cp313-win_amd64.whl

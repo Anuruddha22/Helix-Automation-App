@@ -1,0 +1,197 @@
+# {05D8C294-F295-4dfb-9D01-096BD04049F4}
+# GenApi persistence file (version 3.4.1)
+# Device = IDS_Imaging_Development_Systems_GmbH::U3_380x_C --  -- Device version = 3.2.0 -- Product GUID = be5ecd67-7c1c-1b4f-653c-bdd2e8f96668 -- Product version GUID = 613388e6-65b8-f9f8-bc76-cc0a84f01afa
+TriggerMode	{TriggerSelector=AcquisitionStart}	Off
+TriggerMode	{TriggerSelector=AcquisitionEnd}	Off
+TriggerMode	{TriggerSelector=FrameStart}	Off
+TriggerMode	{TriggerSelector=ExposureStart}	Off
+TriggerSelector	ExposureStart
+TriggerSource	{TriggerSelector=AcquisitionStart}	Software
+TriggerSource	{TriggerSelector=AcquisitionEnd}	Software
+TriggerSource	{TriggerSelector=FrameStart}	Software
+TriggerSource	{TriggerSelector=ExposureStart}	Software
+TriggerSelector	ExposureStart
+TriggerActivation	{TriggerSelector=AcquisitionStart}	RisingEdge
+TriggerActivation	{TriggerSelector=AcquisitionEnd}	RisingEdge
+TriggerActivation	{TriggerSelector=FrameStart}	RisingEdge
+TriggerActivation	{TriggerSelector=ExposureStart}	RisingEdge
+TriggerSelector	ExposureStart
+TriggerDelay	{TriggerSelector=AcquisitionStart}	0
+TriggerDelay	{TriggerSelector=AcquisitionEnd}	0
+TriggerDelay	{TriggerSelector=FrameStart}	0
+TriggerDelay	{TriggerSelector=ExposureStart}	0
+TriggerSelector	ExposureStart
+TriggerDivider	{TriggerSelector=AcquisitionStart}	1
+TriggerDivider	{TriggerSelector=AcquisitionEnd}	1
+TriggerDivider	{TriggerSelector=FrameStart}	1
+TriggerDivider	{TriggerSelector=ExposureStart}	1
+TriggerSelector	ExposureStart
+AcquisitionMode	Continuous
+AcquisitionFrameCount	1
+SensorFrameTimeClocksTarget	7200000
+AcquisitionFrameRateTargetEnable	0
+ExposureAuto	Off
+SensorExposureTimeClocks	5471351
+SensorFrameTimeClocks	7202065
+SensorOperationModeRaw	Default
+LineMode	{LineSelector=Line2}	Input
+LineMode	{LineSelector=Line3}	Input
+LineSelector	Line0
+LineInverter	{LineSelector=Line0}	0
+LineInverter	{LineSelector=Line1}	0
+LineInverter	{LineSelector=Line2}	0
+LineInverter	{LineSelector=Line3}	0
+LineSelector	Line0
+LineNoiseFilterEnable	{LineSelector=Line0}	0
+LineNoiseFilterEnable	{LineSelector=Line2}	0
+LineNoiseFilterEnable	{LineSelector=Line3}	0
+LineSelector	Line0
+LineNoiseFilterDurationClocks	{LineSelector=Line0}	1
+LineNoiseFilterDurationClocks	{LineSelector=Line2}	1
+LineNoiseFilterDurationClocks	{LineSelector=Line3}	1
+LineSelector	Line0
+UserOutputValue	{UserOutputSelector=UserOutput0}	0
+UserOutputValue	{UserOutputSelector=UserOutput1}	0
+UserOutputValue	{UserOutputSelector=UserOutput2}	0
+UserOutputValue	{UserOutputSelector=UserOutput3}	0
+UserOutputSelector	UserOutput0
+LineSource	{LineSelector=Line1}	Off
+LineSource	{LineSelector=Line2}	Off
+LineSource	{LineSelector=Line3}	Off
+LineSelector	Line0
+CounterEventSource	{CounterSelector=Counter0}	Off
+CounterEventSource	{CounterSelector=Counter1}	Off
+CounterSelector	Counter0
+CounterSelector	Counter0
+CounterResetSource	{CounterSelector=Counter0}	Off
+CounterResetSource	{CounterSelector=Counter1}	Off
+CounterSelector	Counter0
+CounterSelector	Counter0
+CounterTriggerSource	{CounterSelector=Counter0}	Off
+CounterTriggerSource	{CounterSelector=Counter1}	Off
+CounterSelector	Counter0
+CounterSelector	Counter0
+CounterDuration	{CounterSelector=Counter0}	0
+CounterDuration	{CounterSelector=Counter1}	0
+CounterSelector	Counter0
+TimerDuration	{TimerSelector=Timer0}	0
+TimerDuration	{TimerSelector=Timer1}	0
+TimerSelector	Timer0
+TimerDelay	{TimerSelector=Timer0}	0
+TimerDelay	{TimerSelector=Timer1}	0
+TimerSelector	Timer0
+TimerTriggerSource	{TimerSelector=Timer0}	Off
+TimerTriggerSource	{TimerSelector=Timer1}	Off
+TimerSelector	Timer0
+TimerSelector	Timer0
+PWMTriggerSource	{PWMSelector=PWM0}	Off
+PWMSelector	PWM0
+PWMSelector	PWM0
+PWMFrequency	{PWMSelector=PWM0}	100
+PWMSelector	PWM0
+PWMDutyCycle	{PWMSelector=PWM0}	50
+PWMSelector	PWM0
+FlashStartDelayClocks	0
+FlashEndDelayClocks	0
+FlashReference	ExposureActive
+EventNotification	{EventSelector=ExposureStart}	Off
+EventNotification	{EventSelector=ExposureEnd}	Off
+EventNotification	{EventSelector=Line0RisingEdge}	Off
+EventNotification	{EventSelector=Line1RisingEdge}	Off
+EventNotification	{EventSelector=Line0FallingEdge}	Off
+EventNotification	{EventSelector=Line1FallingEdge}	Off
+EventNotification	{EventSelector=Error}	Off
+EventNotification	{EventSelector=Line2RisingEdge}	Off
+EventNotification	{EventSelector=Line3RisingEdge}	Off
+EventNotification	{EventSelector=Line2FallingEdge}	Off
+EventNotification	{EventSelector=Line3FallingEdge}	Off
+EventNotification	{EventSelector=FrameDropped}	Off
+EventNotification	{EventSelector=ExposureTriggerMissed}	Off
+EventNotification	{EventSelector=Temperature}	Off
+EventNotification	{EventSelector=CriticalError}	On
+EventNotification	{EventSelector=EventDropped}	On
+EventSelector	EventDropped
+LEDTriggerSource	{LEDSelector=LEDStatus}	CameraStatus
+LEDSelector	LEDStatus
+BrightnessAutoFramerateLimitMode	Fixed
+BrightnessAutoExposureTimeMinClocks	{BrightnessAutoExposureTimeLimitMode=Off}	3796
+BrightnessAutoExposureTimeMinClocks	{BrightnessAutoExposureTimeLimitMode=On}	3796
+BrightnessAutoExposureTimeLimitMode	Off
+BrightnessAutoExposureTimeMaxClocks	{BrightnessAutoExposureTimeLimitMode=Off}	58630771
+BrightnessAutoExposureTimeMaxClocks	{BrightnessAutoExposureTimeLimitMode=On}	58630771
+BrightnessAutoExposureTimeLimitMode	Off
+BrightnessAutoGainMin	{BrightnessAutoGainLimitMode=Off}	1
+BrightnessAutoGainMin	{BrightnessAutoGainLimitMode=On}	1
+BrightnessAutoGainLimitMode	Off
+BrightnessAutoGainMax	{BrightnessAutoGainLimitMode=Off}	13.3352
+BrightnessAutoGainMax	{BrightnessAutoGainLimitMode=On}	13.3352
+BrightnessAutoGainLimitMode	Off
+BrightnessAutoPercentile	13
+BrightnessAutoTarget	150
+BrightnessAutoTargetTolerance	3
+GainAuto	Off
+BalanceWhiteAuto	Off
+Gamma	1
+ADCGainCorrection	{GainSelector=AnalogAll}	1
+GainSelector	DigitalAll
+Gain	{GainSelector=AnalogAll}	10
+Gain	{GainSelector=DigitalAll}	5
+Gain	{GainSelector=DigitalRed}	1
+Gain	{GainSelector=DigitalGreen}	1
+Gain	{GainSelector=DigitalBlue}	1
+GainSelector	DigitalAll
+BlackLevelInt	4194304
+BlackLevelAuto	ContinuousWithOffset
+SensorPixelSize	Bpp10
+Width	5472
+Height	3672
+OffsetX	32
+OffsetY	10
+BinningHorizontal	{BinningSelector=Sensor}	1
+BinningHorizontal	{BinningSelector=Region0}	1
+BinningSelector	Sensor
+BinningVertical	{BinningSelector=Sensor}	1
+BinningVertical	{BinningSelector=Region0}	1
+BinningSelector	Sensor
+DecimationHorizontal	{DecimationSelector=Region0}	1
+DecimationSelector	Region0
+DecimationVertical	{DecimationSelector=Region0}	1
+DecimationSelector	Region0
+TestPattern	Off
+ReverseY	0
+ComponentEnableAll	0x1
+PixelFormat	{ComponentSelector=Intensity}	BayerRG8
+ComponentSelector	Intensity
+SubRegionSourceSelector	{SubRegionSelector=AutoFeatureBrightnessAuto}	Region0
+SubRegionSourceSelector	{SubRegionSelector=AutoFeatureBalanceWhiteAuto}	Region0
+SubRegionSelector	AutoFeatureBrightnessAuto
+SubRegionFollowSource	{SubRegionSelector=AutoFeatureBrightnessAuto}	1
+SubRegionFollowSource	{SubRegionSelector=AutoFeatureBalanceWhiteAuto}	1
+SubRegionSelector	AutoFeatureBrightnessAuto
+SubRegionSelector	AutoFeatureBrightnessAuto
+SubRegionSelector	AutoFeatureBrightnessAuto
+SubRegionSelector	AutoFeatureBrightnessAuto
+SubRegionSelector	AutoFeatureBrightnessAuto
+ColorCorrectionMode	Off
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain00}	384
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain01}	0
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain02}	0
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain10}	0
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain11}	384
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain12}	0
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain20}	0
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain21}	0
+ColorCorrectionMatrixIntValue	{ColorCorrectionMatrix=Custom0	ColorCorrectionMatrixValueSelector=Gain22}	384
+ColorCorrectionMatrix	HQ
+ColorCorrectionMatrixValueSelector	Gain00
+ChunkModeActive	0
+ChunkEnable	{ChunkSelector=OffsetX}	0
+ChunkEnable	{ChunkSelector=OffsetY}	0
+ChunkEnable	{ChunkSelector=Width}	0
+ChunkEnable	{ChunkSelector=Height}	0
+ChunkEnable	{ChunkSelector=PixelFormat}	0
+ChunkEnable	{ChunkSelector=Timestamp}	0
+ChunkEnable	{ChunkSelector=ExposureTime}	0
+ChunkEnable	{ChunkSelector=Gain}	0
+ChunkEnable	{ChunkSelector=ExposureTriggerTimestamp}	0
+ChunkSelector	ExposureTime
