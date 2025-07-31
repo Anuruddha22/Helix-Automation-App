@@ -4,8 +4,9 @@
 Real-time vision • Closed-loop control • Hardware-integrated automation
 
 **Author:** Anuruddha Bhattacharjee  
-**Institution:** Johns Hopkins University  
-**Year:** 2025 
+**Institution:** Johns Hopkins University 
+**Email:** abhatt27@jhu.edu 
+
 
 ## Overview
 
@@ -134,8 +135,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-Collaborators from the Ramesh research group and HEMI at Johns Hopkins University. This system is part of a larger effort to automate high-throughput material testing using robotic automation and AI.
-
+We thank our collaborators from the Ramesh research group at Johns Hopkins University for their helpful conversations and support for this work. This work was sponsored by the Army Research Laboratory and was accomplished under Cooperative Agreement Number W911NF-23-2-0062. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of the Army Research Laboratory or the U.S. Government. 
 ---
 
 ## Citation
