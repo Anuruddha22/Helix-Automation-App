@@ -7,6 +7,7 @@ Real-time vision • Closed-loop control • Hardware-integrated automation
 **Institution:** Johns Hopkins University 
 **Email:** bhattacharjee.anuruddha@gmail.com
 
+---
 
 ## Overview
 
