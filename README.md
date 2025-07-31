@@ -4,13 +4,12 @@
 Real-time vision • Closed-loop control • Hardware-integrated automation
 
 **Author:** Anuruddha Bhattacharjee  
-**GitHub:** [@Anuruddha22](https://github.com/Anuruddha22)  
 **Institution:** Johns Hopkins University  
 **Year:** 2025 
 
 ## Overview
 
-The HELIX Automation App is a modular, Python-based control platform developed to automate and integrate the instruments used in the HELIX system (High-throughput Extreme Laser-driven Impact eXperiments). It combines real-time vision-based micro-flyer detection, precise motion control, laser triggering, and sensor feedback in a unified, user-friendly GUI. The system enables closed-loop operation with on-the-fly parameter tuning for high-throughput, reproducible experimentation.
+The HELIX Automation App is a modular, Python-based control platform developed to automate and integrate the instruments used in the HELIX (High-throughput Extreme Laser-driven Impact eXperiments) system. It combines real-time vision-based micro-flyer detection, precise motion control, laser triggering, and sensor feedback in a unified, user-friendly GUI. The system enables closed-loop operation with on-the-fly parameter tuning for high-throughput, reproducible experimentation.
 
 ---
 

@@ -1,11 +1,18 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
 # Virtual environment
 helix-env/
 env/
 venv/
 
 
-# VS Code settings
+# Code settings
 .vscode/
+.idea/
 
 # OS files
 .DS_Store
